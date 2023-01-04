@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(214, 39, 39);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary {
+  cursor: pointer;
+  margin-top: 400px;
+  width: 400px;
+  height: 60px;
+  font-size: 18px;
+  background-color: rgba(190, 20, 20, 0.727);
+  color: #fff;
+  border: 2px dashed #fff;
+  border-radius: 12px;
+}
+
+.btn-primary:hover {
+  background-color: rgb(150, 19, 19);
+  transition: 0.3s ease;
+}
+
+.el-input {
+  width: 400px;
+  height: 200px;
+  margin-top: 200px;
+}
+
+.el-btnsave {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  margin-top: 360px;
+  margin-left: -90px;
+  background: black;
+  opacity: 0.9;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.el-btndelate {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  margin-top: 360px;
+  margin-left: -170px;
+  border: none;
+  border-radius: 6px;
+}
+
+.el-btnsave:hover {
+  opacity: 1;
+}
+
+.el-li {
+  list-style: none;
+  width: 400px;
+  height: 40px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.btn-remove {
+  cursor: pointer;
+  margin-left: 370px;
+  font-weight: 700;
+  margin-top: 8px;
+  background: none;
+  border: 2px solid #dedede;
+  color: grey;
+}
