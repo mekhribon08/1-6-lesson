@@ -29,6 +29,7 @@ body {
 .btn-primary:hover {
   background-color: rgb(150, 19, 19);
   transition: 0.3s ease;
+  border: 2px dashed #fff;
 }
 
 .el-input {
@@ -69,8 +70,11 @@ body {
   height: 40px;
   background-color: #fff;
   margin-bottom: 10px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .btn-remove {
@@ -81,4 +85,28 @@ body {
   background: none;
   border: 2px solid #dedede;
   color: grey;
+}
+
+.my-modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px dashed #fff;
+  z-index: 100;
+  background: rgba(24, 22, 22, 0.3);
+  backdrop-filter: blur(88px);
+  display: none;
+}
+
+.my-modal.show {
+  display: flex;
+}
+
+.my-modal__content {
+  max-width: 500px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 12px;
 }
